@@ -147,12 +147,13 @@ h1 {
 }
 
 .grid-container {
-    max-width: 22500px;
+    /* max-width: 22500px;
     width: auto;
     margin: 40px auto;  
-    padding: 10px;
+    padding: 10px; */
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: repeat (2, 50%);
+    grid-template-rows: repeat (5, 200px)  ;
     justify-content: center;
     
 }
