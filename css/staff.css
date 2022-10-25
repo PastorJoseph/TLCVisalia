@@ -66,22 +66,43 @@ h1 {
     
 }
 
-.container {
-    display: flex;
-    justify-content: center;
-    max-width: 960px;
-    margin-inline: auto;
-    padding-inline: 2rem;
-}
 
-.card__img {
-    padding-top: 300px;
-} 
+    
+
+
+
 
 h1 {
     font-size: 60px;
     color: steelblue;
     display: flex;
     justify-content: center;
+    padding-top: 80px;
 
 }
+
+.container {
+    max-width: 1260px;
+    margin: 100px auto;
+    padding: 10px;
+    display: grid;
+    grid-template-rows: auto;
+      
+}
+
+.item {
+    background-color: steelblue;
+    color: white;
+    font-size: 20px;
+    align-content: center;
+    padding: 20px;
+    border: skyblue 1px solid;
+    
+   
+}
+
+p {
+    font-size: 45px;
+}
+
+

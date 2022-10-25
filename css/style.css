@@ -70,8 +70,10 @@ h1 {
     display: flex;
     justify-content: center;
     max-width: 960px;
+    padding: 80px 40px;
     margin-inline: auto;
     padding-inline: 2rem;
+    
 }
 
 .card__img {
@@ -83,6 +85,18 @@ h1 {
     color: steelblue;
     display: flex;
     justify-content: center;
+    padding-top: 80px;
 
+}
+
+.container-LC {
+    display: flex;
+    justify-content: center;
+}
+
+.img-lc {
+    display: flex;
+    justify-content: center;
+    max-width: 1060px;
 }
 
