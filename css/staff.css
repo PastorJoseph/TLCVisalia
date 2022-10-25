@@ -36,8 +36,7 @@ h1 {
     align-items: center;
     justify-content: space-between;
     background-color: black;
-    
-    opacity: 0.8;
+    opacity: 0.9;
     width: 100%;
     height: 70px;
     position: fixed;
@@ -53,7 +52,7 @@ h1 {
 }
 
 .navbar a:hover {
-    /* border-bottom: #28a745 2px solid; */
+    
     color: aquamarine;
 }
 
@@ -91,12 +90,12 @@ h1 {
 }
 
 .item {
-    background-color: steelblue;
-    color: white;
+    /* background-color: ; */
+    color: black;
     font-size: 20px;
     align-content: center;
     padding: 20px;
-    border: skyblue 1px solid;
+    /* border: skyblue 1px solid; */
     
    
 }

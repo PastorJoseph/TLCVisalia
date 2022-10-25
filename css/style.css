@@ -4,6 +4,15 @@
     padding: 0;
 }
 
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 960px;
+    padding: 80px 40px;
+    margin-inline: auto;
+    padding-inline: 2rem;
+}
 .logo {
     font-size: 60px;
     color: white;
@@ -37,7 +46,7 @@ h1 {
     justify-content: space-between;
     background-color: black;
     
-    opacity: 0.8;
+    opacity: 0.9;
     width: 100%;
     height: 70px;
     position: fixed;
@@ -66,7 +75,7 @@ h1 {
     
 }
 
-.container {
+/* .container-body {
     display: flex;
     justify-content: center;
     max-width: 960px;
@@ -74,7 +83,7 @@ h1 {
     margin-inline: auto;
     padding-inline: 2rem;
     
-}
+} */
 
 .card__img {
     padding-top: 75px;
@@ -91,7 +100,15 @@ h1 {
 
 .container-LC {
     display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     justify-content: center;
+}
+.img {
+    display: flex;
+    
+    
+
 }
 
 .img-lc {
@@ -99,4 +116,56 @@ h1 {
     justify-content: center;
     max-width: 1060px;
 }
+
+@media (max-width: 412px) {
+    .container {
+        flex-direction: column;
+    }
+    
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+}
+
+.section .schedule {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-sch {
+    display: flex;
+    justify-content: center;
+}
+
+
+h1 {
+    align-items: center;
+    color: darkgreen;
+}
+
+.grid-container {
+    max-width: 22500px;
+    width: auto;
+    margin: 40px auto;  
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+    
+}
+
+.item {
+    /* background-color: wheat; */
+    color: black;
+    text-align: center;
+    font-size: 40px;
+    padding: 20px;
+    /* border: black 1px solid; */
+}
+
+
+
 
