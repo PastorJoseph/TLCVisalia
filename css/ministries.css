@@ -64,6 +64,10 @@ p {
     color: aquamarine;
 }
 
+.navbar a.current {
+    color: aquamarine;
+}
+
 .navbar .logo {
     font-weight: 400;
 }

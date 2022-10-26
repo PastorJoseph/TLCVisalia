@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <title>TLC</title>
+    <link rel="stylesheet" href="css/contact.css">
+    <title>TLCVisalia</title>
+    
+
 </head>
 <body>
     <div id="navbar" class="navbar">
@@ -22,15 +24,39 @@
             </nav>
         </div>
     <main>
+        
+
         <div class="container">
-            <div class="product-grid">
-                <div class="card">
-                  
-                </div>
-            </div>
+            <h1 class="form">Contact Form</h1>
+
+          <form action="/action_page.php">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        
+            <label for="email">Email Address</label>
+            <input type="text" id="email" name="email address" placeholder="email address..">
+        
+
+            <!-- <select id="country" name="country">
+              <option value="australia">email</option>
+              <option value="canada">Canada</option>
+              <option value="usa">USA</option>
+            </select> -->
+        
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+        
+            <input type="submit" value="Submit">
+          </form>
         </div>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae rem, accusantium accusamus recusandae adipisci necessitatibus obcaecati quibusdam. Exercitationem minima eaque autem, quaerat sequi ullam dolorum eligendi obcaecati excepturi ratione fugiat?</p>
+         
+        
         
     </main>
+   
+
 </body>
 </html>

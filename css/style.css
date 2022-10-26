@@ -61,8 +61,13 @@ h1 {
     margin: 0 5px;
 }
 
-.navbar a:hover {
+.navbar a:hover 
+ {
     /* border-bottom: #28a745 2px solid; */
+    color: aquamarine;
+}
+
+.navbar a.current {
     color: aquamarine;
 }
 
@@ -127,6 +132,13 @@ h1 {
     
 }
 
+.link {
+    text-decoration: underline;
+    color: cornflowerblue;
+}
+
+
+
 .section {
     display: flex;
     justify-content: center;
@@ -140,6 +152,10 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+body {
+    font-family: sans-serif;
 }
 
 .container-sch {
