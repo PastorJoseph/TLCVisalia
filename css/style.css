@@ -144,6 +144,7 @@ h1 {
 h1 {
     align-items: center;
     color: dodgerblue;
+    
 }
 
 .grid-container {
@@ -152,6 +153,7 @@ h1 {
     margin: 40px auto;  
     padding: 10px; */
     display: grid;
+    gap: 1.5em;
     grid-template-columns: repeat (2, 50%);
     grid-template-rows: repeat (5, 200px)  ;
     justify-content: center;

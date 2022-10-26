@@ -72,11 +72,12 @@ h1 {
 
 
 h1 {
-    font-size: 60px;
-    color: steelblue;
-    display: flex;
-    justify-content: center;
-    padding-top: 80px;
+    font-size: 85px;
+    color: black;
+    
+    
+    
+    
 
 }
 
@@ -91,17 +92,22 @@ h1 {
 
 .item {
     /* background-color: ; */
+    /* display: flex; */
+    /* align-items: center; */
     color: black;
     font-size: 20px;
-    align-content: center;
-    padding: 20px;
+    /* align-content: center; */
+    /* padding: 20px; */
+    padding-top: 20px;
     /* border: skyblue 1px solid; */
     
    
 }
 
 p {
-    font-size: 45px;
+    font-size: 35px;
 }
+
+
 
 
