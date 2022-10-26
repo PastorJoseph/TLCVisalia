@@ -4,6 +4,13 @@
     padding: 0;
 }
 
+.container {
+    display: flex;
+    
+}
+
+
+
 body {
     background-color: steelblue;
     font-family: sans-serif;
@@ -180,7 +187,23 @@ h1 {
     padding-left: 240px;
 }
 
+@media(max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        height: 120px;
+        padding: 20px;
+    }
 
+    .navbar a {
+        padding: 10px 10x;
+        margin: 0 30px;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+    
+}
 
 
 
