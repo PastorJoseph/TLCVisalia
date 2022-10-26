@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: blanchedalmond;
+    background-color: steelblue;
 }
 
 .logo {
@@ -88,12 +88,19 @@ h1 {
     
 }
 
+.connect {
+    color: darkturquoise;
+    padding-top: 200px;
+    padding-left: 150px;
+}
+
 .container {
-    max-width: 960;
+    max-width: 900;
     margin: 100px auto;
     padding: 10px;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    
 }
 
 .item {
@@ -101,10 +108,72 @@ h1 {
     color: #fff;
     font-size: 20px;
     padding: 20px;
-    border: skyblue 1px solid;
+    /* border: skyblue 1px solid; */
 
 }
 
+.min {
+    color: white;
+    text-align: center;
+    padding-right: 130px;
+}
+
+.img {
+    padding-left: 110px;
+    padding-bottom: 30px;
+}
+
+.kdz {
+    color: white;
+    padding-bottom: 50px;
+    padding-left: 180px;
+
+}
+
+.chld {
+    padding-bottom: 150px;
+    padding-left: 50px;
+}
+
+.men {
+    color: white;
+    padding-left: 220px;
+    padding-bottom: 50px;
+}
+
+
+
+.menmin {
+    padding-top:50px ;
+}
+.mensmin {
+    padding-left: 65px;
+}
+
+.cr {
+    padding-top: 50px;
+    padding-left: 150px;
+}
+
+.mar {
+    color: white;
+    text-align: center;
+}
+
+.coup {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 150px;
+}
+
+.marmin {
+    padding-left: 150px;
+}
+
+.rec {
+    color: white;
+    padding-left: 240px;
+}
 
 
 
